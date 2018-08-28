@@ -9,6 +9,7 @@ branches:
   only:
     - master
     - develop
+    - hotfix
 
 skip_tags: true
 
