@@ -9,6 +9,8 @@ branches:
   only:
     - master
     - develop
+    - hotfix
+    - /^release\/.*$/
 
 skip_tags: true
 

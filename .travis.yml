@@ -35,6 +35,7 @@ branches:
     - master
     - develop
     - hotfix
+    - /^release\/.*$/
 
 notifications:
   email:
