@@ -11,18 +11,10 @@
     "servers.json"
   ],
   "mac": {
-    "bundleVersion": "31",
-    "helperBundleId": "chat.rocket.electron.helper",
     "category": "public.app-category.productivity",
-    "target": [
-      "default",
-      "pkg",
-      "mas"
-    ],
-    "artifactName": "rocketchat-${version}.${ext}"
-  },
-  "mas": {
-    "artifactName": "rocketchat-${version}-mas.${ext}"
+    "target": [ "pkg" ],
+    "bundleVersion": "31",
+    "helperBundleId": "chat.rocket.electron.helper"
   },
   "nsis": {
     "oneClick": false,
